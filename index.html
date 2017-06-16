@@ -1,16 +1,10 @@
 <!--
 
- __      .__   __.  _______  ____    __    ____     ___     ___    __     __   
-|  |     |  \ |  | |       \ \   \  /  \  /   /    |__ \   / _ \  /_ |   / /   
-|  |     |   \|  | |  .--.  | \   \/    \/   /        ) | | | | |  | |  / /_   
-|  |     |  . `  | |  |  |  |  \            /        / /  | | | |  | | | '_ \  
-|  `----.|  |\   | |  '--'  |   \    /\    /        / /_  | |_| |  | | | (_) | 
-|_______||__| \__| |_______/     \__/  \__/        |____|  \___/   |_|  \___/  
-                                                                               
-
+LndW 2017
 Lightning Talk: Open Data
 
-Stephan Fischer <sf@stephan-fischer.de>
+Stephan Fischer (stephan-fischer.de)
+<sf@stephan-fischer.de>
 
 -->
 
@@ -20,20 +14,21 @@ Stephan Fischer <sf@stephan-fischer.de>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Open Data (Lightning Talk von Stephan Fischer) - Dresdener Lange Nacht der Wissenschaften 2016</title>
+		<title> Open Data, Lightning Talk von Stephan Fischer - Lange Nacht der Wissenschaften Dresden 2017</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/night.css">
+		<link rel="stylesheet" href="css/reveal.css" />
+		<link rel="stylesheet" href="css/theme/night.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
 
 		<!-- Printing and PDF exports -->
 		<!-- Not always working, sorry -->
-		<script>
+		<!-- <script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
+		</script> -->
 	</head>
 	<body>
 		<div class="reveal">
@@ -41,51 +36,59 @@ Stephan Fischer <sf@stephan-fischer.de>
 				<section data-background-image="img/Transmediale-2010-Ryoji_Ikeda-Data-Tron-2.jpg">
 
 				<div class="fragment fade-in">
-					<img src="img/LNDW_Vorschau2016_1.JPG" style="width:250px;box-shadow: 4px 0px 11px rgba(0, 0, 0, 1);">
-					<h1 style="text-shadow: 4px 0px 11px rgba(0, 0, 0, 1);">&lt;Open Data&gt;</h1>
+					<img src="img/lndw.jpg" style="width:250px;box-shadow: 4px 0px 11px rgba(0, 0, 0, 1);">
+					<h1 style="text-shadow: 4px 0px 11px rgba(0, 0, 0, 1);">Open Data</h1>
 
 				</div>
-				<div class="fragment fade-in" style="color:#000;background:#fff;padding:20px;opacity:0.8">
-					<div style="font-size:0.5em">&lt;purpose&gt; Lightning Talk &lt;/purpose&gt;<br/>
-					&lt;presenter&gt; Stephan Fischer &lt;/presenter&gt;<br/>
-					<a href="http://bit.ly/1tlnnHz" target="_blank"><strong>&lt;slides&gt; http://bit.ly/1tlnnHz &lt;/slides&gt;</strong></a></div>
+				<div class="fragment fade-in" style="color:#000;background:#fff;padding:20px;opacity:0.7">
+					<div style="font-size:0.6em;font-weight:bold">
+            Lightning Talk von Stephan Fischer
+          </div>
 				</div>
 
 				</section>
 
+        <section>
+          <img src="img/herrfischer.jpg" />
+          <h2>Stephan</h2>
+          <span class="fragment fade-in">
+            <a href="https://stephan-fischer.de">stephan-fischer.de</a> | <i class="fa fa-twitter-square"></i> <a href="https://twitter.com/22uhr">@22uhr</a> | <i class="fa fa-github"></i> <a href="https://github.com/tocsinDE">tocsinDE</a>
+          </span>
+        </section>
+
 				<section>
-					<h2>&lt;Inhalt&gt;</h2>
+					<h2>Inhalt</h2>
 					<ol>
 						<li class="fragment fade-in">Was ist eigentlich dieses <span class="fragment fade-in"><i>"Open Data"</i>?</span></li>
-						<li class="fragment fade-in">Zeig mir Beispiele<span class="fragment fade-in">, Herr Vortragender!</span></li>
-						<li class="fragment fade-in">Wie funktioniert das?</li>
-						<li class="fragment fade-in">Wie kann ich mitmachen?</li>
-						<li class="fragment fade-in">Fakultativ: <span class="fragment fade-in">Kleine Fragerunde :)</span></li>
+						<li class="fragment fade-in">Ein paar schöne <span class="fragment fade-in">Beispiele.</span></li>
+						<li class="fragment fade-in">Wie funktioniert das? Beispiel ParkenDD.</li>
+						<li class="fragment fade-in">Wie man mitmachen kann.</li>
+						<li class="fragment fade-in">Fakultativ: <span class="fragment fade-in">Kleine Fragerunde.</span></li>
 					</ol>
 				</section>
 
-				<section data-background-image="img/Open-Data.png">
+				<section data-background-image="img/opendata-durham.png">
 					<h1 class="fragment fade-in" style="text-shadow: 4px 0px 11px rgba(0, 0, 0, 1);">Oh.</h1>
 
-					<div class="fragment fade-in" style="color:#fff;background:#000;padding:10px;line-height:1em;opacity:0.7;margin-top:300px;font-size:0.4em;"><strong>Bildquelle:</strong> http://blog.tasteanalytics.com/wp-content/uploads/2016/04/Open-Data.png</div>
+					<div class="fragment fade-in" style="color:#fff;background:#000;padding:10px;line-height:1em;opacity:0.6;margin-top:300px;font-size:0.4em;"><strong>Bildquelle:</strong> http://blog.tasteanalytics.com/wp-content/uploads/2016/04/Open-Data.png</div>
 				</section>
 
 				<section data-background-image="img/2000px-LOD_Cloud_Diagram_as_of_September_2011.svg.png">
 					<h1 class="fragment fade-in" style="text-shadow: 4px 0px 11px rgba(0, 0, 0, 1);">Oh.²</h1>
 
-					<div class="fragment fade-in" style="color:#fff;background:#000;padding:10px;line-height:1em;opacity:0.7;margin-top:300px;font-size:0.4em;"><strong>Bildquelle:</strong> https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/LOD_Cloud_Diagram_as_of_September_2011.svg/2000px-LOD_Cloud_Diagram_as_of_September_2011.svg.png</div>
+					<div class="fragment fade-in" style="color:#000;background:#fff;padding:10px;line-height:1em;opacity:0.8;margin-top:300px;font-size:0.4em;"><strong>Bildquelle:</strong> https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/LOD_Cloud_Diagram_as_of_September_2011.svg/2000px-LOD_Cloud_Diagram_as_of_September_2011.svg.png</div>
 				</section>
 
 				<section data-background-image="img/books-1281581.jpg">
 					<h1 class="fragment fade-in" style="text-shadow: 4px 0px 11px rgba(0, 0, 0, 1);">Nett :)</h1>
 
-					<div class="fragment fade-in" style="color:#fff;background:#000;padding:10px;line-height:1em;opacity:0.7;margin-top:300px;font-size:0.4em;"><strong>Bildquelle:</strong> https://www.flickr.com/photos/30827420@N04/14475473790</div>
+					<div class="fragment fade-in" style="color:#fff;background:#000;padding:10px;line-height:1em;opacity:0.6;margin-top:300px;font-size:0.4em;"><strong>Bildquelle:</strong> https://www.flickr.com/photos/30827420@N04/14475473790</div>
 				</section>
 
 				<section data-background-iframe="http://selection.datavisualization.ch/"></section>
 
 				<section>
-					<h2>&lt;Beispiele&gt;</h2>
+					<h2>2.) Beispiele</h2>
 					<h4 class="fragment fade-in">(Hoffentlich schläft noch keiner...)</h4>
 				</section>
 
@@ -100,12 +103,12 @@ Stephan Fischer <sf@stephan-fischer.de>
 
 				<section>
 
-					<h2>Datenwaben: Wien</h2>
+					<h2>Datenwaben: Deutsche Bahn</h2>
 					<div class="fragment fade-in">
-						<iframe src="http://daten-waben.tursics.de/index.html?city=vienna&page=cards" style="width:100%;height:500px"></iframe>
+						<iframe src="http://daten-waben.tursics.de/index.html?city=deutschebahn" style="width:100%;height:500px"></iframe>
 
 						<div style="color:#fff;padding:10px;line-height:1em;font-size:0.6em;">
-							<a href="http://daten-waben.tursics.de/index.html?city=vienna&page=cards" target="_blank">Livedemo</a> | <a href="https://www.data.gv.at/suche/?search-term=&top10Filter_Stadt+Wien=on&publisherFilter_Stadt+Wien=on&connection=and&search-data-only=search-data-on&hideFilters/" target="_blank">Rohdaten</a>
+							<a href="http://daten-waben.tursics.de/index.html?city=deutschebahn" target="_blank">Livedemo</a>
 						</div>
 					</div>
 				</section>
@@ -133,28 +136,35 @@ Stephan Fischer <sf@stephan-fischer.de>
 						</div>
 					</div>
 				</section>
+        <section>
+          <h2>NASA</h2>
+          <div class="fragment fade-in">
+            <iframe src="https://code.nasa.gov" style="width:100%;height:500px"></iframe>
+          </div>
+        </section>
 
-				<section data-background-image="img/misc-jackie-chan-l.jpg">
+
+				<section data-background-image="img/jackiechan.png">
 					<h2 style="text-shadow: 4px 0px 11px rgba(0, 0, 0, 1);">Oh³: Nicholas Felton</h2>
 					<div class="fragment fade-in">
 						<iframe src="http://feltron.com/FAR14.html" style="width:100%;height:500px"></iframe>
 
 						<div style="color:#fff;background:#000;padding:10px;line-height:1em;font-size:0.6em;">
-							<a href="http://feltron.com" target="_blank">Felton.com</a> | <a href="http://feltron.com/images/FAR14/08@2x.jpg" target="_blank">Beispielseite</a> | <a href="http://feltron.bigcartel.com/product/2014-annual-report-pre-order" target="_blank">Super Angebot: Feltons Daten von 2014 für läppische 30$</a><br/><span style="font-size:0.7em"><strong>Bildquelle:</strong> https://theadvertisingoutlet.wordpress.com/2014/01/11/i-like-advertising-but-i-dont-like-advertising/</a></span>
+							<a href="http://feltron.com" target="_blank">Felton.com</a> | <a href="http://feltron.com/images/FAR14/08@2x.jpg" target="_blank">Beispielseite</a> | <a href="http://feltron.bigcartel.com/product/2014-annual-report-pre-order" target="_blank">Super Angebot: Feltons Daten von 2014 für läppische 30$</a><br/><span style="font-size:0.7em"><strong>Bildquelle:</strong> https://www.photopinups.org/wp-content/uploads/2013/04/jackie_chan1.png</a></span>
 						</div>
 					</div>
 
 				</section>
 
 				<section data-background-iframe="https://parkendd.de/map.html">
-					<h2 style="text-shadow: 4px 0px 11px rgba(0, 0, 0, 1);">&lt;Beispiel ParkenDD&gt;</h2>
+					<h2 style="text-shadow: 4px 0px 11px rgba(0, 0, 0, 1);">3.) Ausführliches Beispiel: ParkenDD</h2>
 				</section>
 
 				<section>
 					<h2>Schritt 1: Finde. Verwertbare. Daten. <span class="fragment fade-in">Bitte.</span> <span class="fragment fade-in">D'oh.</span></h2>
 					<div class="fragment fade-in">
 						<iframe src="https://apps.dresden.de/ords/f?p=1110:1:10142134446942" style="width:100%;height:500px;background:#fff"></iframe>
-						<span style="font-size:0.7em"><strong>Problem:</strong> Daten nicht maschinenlesbar (z.B. CSV)</span>
+						<span style="font-size:0.7em" class="fragment fade-in"><strong>Problem:</strong> Daten nicht maschinenlesbar (z.B. CSV)</span>
 					</div>
 
 				</section>
@@ -165,14 +175,14 @@ Stephan Fischer <sf@stephan-fischer.de>
 				</section>
 
 				<section>
-					<h2>Schritt 3: Daten importieren; Maschinenlesbarkeit <span class="fragment fade-in">(JSON, juhu!)</span></h2>
+					<h2>Schritt 3: Daten importieren; Maschinenlesbarkeit <span class="fragment fade-in">(JSON)</span></h2>
 					<img class="fragment fade-in" src="img/Bildschirmfoto 2016-06-10 um 12.58.41.png">
 				</section>
 
 				<section>
 					<h2>Schritt 4: Coding.</h2>
 					<div class="fragment fade-in">
-						<img src="img/parkendd-github.png"></iframe>
+						<img src="img/parkendd.png">
 						<span style="font-size:0.7em"><strong>Open-Data-prädestiniert:</strong> Open-Source-Code auf <a href="https://github.com/kiliankoe/ParkenDD" target="_blank">GitHub</a>.</span>
 					</div>
 
@@ -180,15 +190,15 @@ Stephan Fischer <sf@stephan-fischer.de>
 
 				<section>
 					<h2>Zack, fertig: App.</h2>
-					<div class="fragment fade-in">
-						<iframe src="https://parkendd.de/" style="width:100%;height:500px;background:#fff"></iframe>
-						<span style="font-size:0.7em;color:#fff">Erhältlich für Android, iOS und sogar Windows Phone (+ 10 Mobile): <a href="https://parkendd.de" target="_blank">ParkenDD.de</a></span>
-					</div>
+          <div class="fragment fade-in">
+            <img src="img/parkendd-app.png" />
+            <span style="font-size:0.7em;color:#fff">Erhältlich für Android, iOS und sogar Windows Mobile: <a href="https://parkendd.de" target="_blank">ParkenDD.de</a></span>
+          </div>
 				</section>
 
 				<section data-background-image="img/1500x500.jpeg">
-					<h2 style="text-shadow: 4px 0px 11px rgba(0, 0, 0, 1);">&lt;Mitmachen&gt;</h2>
-					<div class="fragment fade-in" style="color:#fff;background:#000;padding:10px;line-height:1em;opacity:0.7;margin-top:300px;font-size:0.4em;">
+					<h2 style="text-shadow: 4px 0px 11px rgba(0, 0, 0, 1);">4.) Mitmachen</h2>
+					<div class="fragment fade-in" style="color:#fff;background:#000;padding:10px;line-height:1em;opacity:0.6;margin-top:300px;font-size:0.4em;">
 						<strong>Bildquelle:</strong> https://twitter.com/OpenDataDresden
 					</div>
 				</section>
@@ -196,6 +206,8 @@ Stephan Fischer <sf@stephan-fischer.de>
 				<section data-background-iframe="http://offenesdresden.de/"></section>
 
 				<section data-background-image="img/meetup.png"></section>
+
+        <section data-background-iframe="https://codefor.de/mitmachen/"></section>
 
 				<section data-background-image="img/lndw15.jpg">
 					<h2 style="text-shadow: 4px 0px 11px rgba(0, 0, 0, 1);">Fragen?</h2>
@@ -205,7 +217,7 @@ Stephan Fischer <sf@stephan-fischer.de>
 					<h2 style="text-shadow: 4px 0px 11px rgba(0, 0, 0, 1);">Danke für eure Aufmerksamkeit!</h2>
 
 					<div class="fragment fade-in" style="color:#000;background:#fff;padding:20px;opacity:0.8">
-						<div style="font-size:0.5em">Diese Folien noch mal anschauen: <a href="http://bit.ly/1tlnnHz" target="_blank">http://bit.ly/1tlnnH</strong></a></div>
+						<div style="font-size:0.5em">Diese Folien noch mal anschauen: <a href="https://git.io/vHNKm" target="_blank">git.io/vHNKm</strong></a></div>
 					</div>
 
 					<div class="fragment fade-in" style="color:#000;background:#fff;padding:20px;opacity:0.8;margin-top:20px;">
